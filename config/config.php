@@ -6,13 +6,13 @@
 [production]
 database.adapter        			= pdo_mysql
 database.utf8            			= true
-database.params.host     			= localhost
-database.params.username 			= root
-database.params.password 			= ''
-database.params.dbname   			= simple_invoices
+database.params.host     			= mysql-5-6.ca5nl5yn1mhb.us-east-1.rds.amazonaws.com
+database.params.username 			= brandrea_invoice
+database.params.password 			= 'r$fv7Ujm'
+database.params.dbname   			= brandrea_invoices
 database.params.port       			= 3306
 
-authentication.enabled	 			= false
+authentication.enabled	 			= true
 authentication.http 				= 
 
 export.spreadsheet	     			= xls
@@ -36,15 +36,15 @@ email.secure      		    		=
 email.ack 				            = false
 email.use_local_sendmail            = false
 
-encryption.default.key 				= this_is_the_encryption_key_change_it
-nonce.key                           = this_should_be_random_and_secret_so_change_it
+encryption.default.key 				= brandrea_invoice_secret_encryption_key
+nonce.key                           = brandrea_invoice_secret_encryption_key_v2
 nonce.timelimit                     = 3600
 
 version.name				    	= 2013.1.beta.8
- 
-debug.level 				    	= All 
+
+debug.level 				    	= All
 debug.error_reporting				= E_ERROR
-phpSettings.date.timezone 			= Europe/London
+phpSettings.date.timezone 			= America/Chicago
 phpSettings.display_startup_errors  = 1
 phpSettings.display_errors 			= 1
 phpSettings.log_errors   			= 0
