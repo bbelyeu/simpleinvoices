@@ -6,7 +6,7 @@
 [production]
 database.adapter        			= pdo_mysql
 database.utf8            			= true
-database.params.host     			= mysql-5-6.ca5nl5yn1mhb.us-east-1.rds.amazonaws.com
+database.params.host     			= webhostingdb.ca5nl5yn1mhb.us-east-1.rds.amazonaws.com
 database.params.username 			= brandrea_invoice
 database.params.password 			= 'r$fv7Ujm'
 database.params.dbname   			= brandrea_invoices
